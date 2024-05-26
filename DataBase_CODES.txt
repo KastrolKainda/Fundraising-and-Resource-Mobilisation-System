@@ -1,0 +1,33 @@
+CREATE DATABASE NGO;
+USE NGO;
+CREATE TABLE AdminLogin(
+	ID INT(5) NOT NULL AUTO_INCREMENT,
+	EmailID VARCHAR(20) NOT NULL,
+	Pass_word VARCHAR(20) NOT NULL,
+	PRIMARY KEY(ID)
+);
+CREATE TABLE UserLogin(
+	ID INT(5) NOT NULL AUTO_INCREMENT,
+	EmailID VARCHAR(20) NOT NULL,
+	Pass_word VARCHAR(20) NOT NULL,
+	PRIMARY KEY(ID)
+);
+CREATE TABLE Subscribe(
+	ID INT(5) NOT NULL AUTO_INCREMENT,
+	EmailID VARCHAR(100) NOT NULL,
+	PRIMARY KEY(ID)
+);
+
+
+INSERT INTO adminlogin VALUES(10, "admin10@gmail.com", "admin10");
+INSERT INTO adminlogin VALUES("", "admin20@gmail.com", "admin20");
+INSERT INTO adminlogin VALUES("", "admin30@gmail.com", "admin30");
+
+
+INSERT INTO userlogin VALUES(100, "user100@gmail.com", "user100");
+INSERT INTO userlogin VALUES("", "user101@gmail.com", "user101");
+INSERT INTO userlogin VALUES("", "user101@gmail.com", "user102");
+
+INSERT INTO subscribe VALUES(1000, "userinfor10@gmail.com");
+INSERT INTO subscribe VALUES("", "userinfor20@gmail.com");
+INSERT INTO subscribe VALUES("", "userinfor20@gmail.com");
