@@ -1,0 +1,446 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsl(216, 77%, 20%);
+}
+
+        /* THE NAVIGATION BAR*/
+.navbar {
+  background-color: #0c2b5b;
+  overflow: hidden;    
+}
+.navbar a{
+  color: #fff;
+}
+.logo {
+  float: left;
+}
+  
+.logo img {
+  height: 100px; /* Adjust as needed */
+  width: 100px;
+  border-radius: 15px;
+  padding: 10px; /* Adjust as needed */
+}
+
+#donate{
+  float: right;
+  padding: 0px 0px 0px -10px;
+  color: #fff;
+  font-size: 25px;
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/*
+#donate:hover{
+  color: #45a049;
+}
+*/
+
+.navbar-buttons {
+  float: right;
+}
+  
+.button {
+  background-color: rgb(217, 65, 19);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: none;
+}
+
+.navbar a:hover {
+  color: rgb(51, 229, 51);
+}
+
+@media screen and (max-width: 600px) {
+  .navbar a {
+    float: none;
+    display: block;
+    text-align: left;  
+}
+    
+  .navbar-buttons {
+    float: none;
+    text-align: right;  
+    }
+}
+  
+a{
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+  color: #fff;
+}
+/*
+.text a:hover{
+  background-color: #2980b9;
+}*/
+
+    /* THE IMAGE / VIDEO*/
+.image-1 img{
+  height: 855px;
+  width: 1582px;
+  opacity: .89;
+}
+
+
+    /*Text on the landing image*/
+.content{
+  position: relative;
+  padding: center;   
+  text-align: center;
+}
+.text{
+  top: -280px;
+  position: absolute;
+  color: #ec0707;
+  background: transparent;
+  font-size: 25px;
+  padding: center;
+  bottom: 150px;
+  left: 550px;
+  margin: center;
+  text-align: center;
+}
+
+    /* THE MAIN CONTENT OF THE BODY */
+.all p{
+  font-size: 40px;
+  color: red;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.in p{
+  font-size: 40px;
+  color: #2980b9;;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+    
+.in p i{
+  font-size: 22px;
+  color: #fff;      
+}
+
+
+        /*THE FIRST ROW OF THE SIDE IMAGE*/
+        
+.two-column {
+  display: flex;
+  background-color: #ccc;
+  padding: 30px;
+  text-align: left;
+  height: 636px;
+  margin-top: -10px;
+  }
+        
+.column {
+  flex: 1;
+}
+        
+#par2{
+  color: #000; 
+  font-size: 20px;
+  text-align: center;
+}
+        
+#par102{
+  font-size: 45px;
+  font-weight: bolder;
+  color: #2980b9;;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.column.image {
+  text-align: center;
+}
+        
+.column.content {
+  padding-left: 50px;
+  font-size: 20px;   
+}
+        
+.column.content h2 {
+  margin-bottom: 15px;
+}
+        
+.column.content button {
+  background-color: rgb(217, 65, 19); /* Lighter blue for button */
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: 0.5px solid #000; 
+}
+        
+.column.content button:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+  }
+        
+.column img{
+  height: 600px;
+  width: 800px;       
+}
+        
+button{
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  font-size: 20px; 
+}
+        
+
+
+
+
+            /* OUR SHOW OFF PART */
+.well{
+  background-color: #fff;
+}
+          
+.container-100{
+    display: flex;
+}
+            
+.column{
+  flex: 1;
+  padding: 5px;
+}
+            
+h5 {
+  color: rgb(242, 21, 21);
+  font-size: 3.5em;
+  margin-bottom: 5px;
+  text-align: center;
+}
+            
+#p100 {
+  font-size: 22px;
+   text-align: center;
+}
+            
+          /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.container-1{
+  display: flex;
+}
+            
+.column-10 {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+            
+img {
+  max-width: 100%;
+  height: auto;
+}
+            
+#par10{
+  text-decoration: none;
+  color: #2980b9;
+  font-size: 20px;
+  cursor: pointer;
+}
+#par10:hover{
+  color: rgba(89, 204, 28, 0.947);
+}
+#par20{
+  font-size: 25px;
+  color: rgba(243, 84, 27, 0.896);
+}
+          
+          /* DONATIONS AND VOLUNTEERING */
+
+.well-100{
+  background-color: rgba(126, 81, 202, 0.974);
+  text-align: center;
+  color: #fff;
+  height: 900px;
+}
+      
+.container-1000{
+  display: flex;
+}
+        
+.column-101{
+  flex: 1;
+  padding: 5px;
+}
+        
+#par103 {
+  font-size: 2.0em;
+  margin-bottom: 5px;
+  text-align: center;
+}
+        
+#p1000 {
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+}
+ul li{
+  text-align: left;
+  font-size: 22px;
+}
+      
+.well-100 h1{
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+}
+          /*button*/
+#donate_voluteer{
+  background-color: rgba(121, 91, 174, 0.974);
+  text-decoration: none;
+  color: #fff;
+  height: 45px;
+  width: 120px;
+  text-align: center;
+  font-size: 17px;
+  border-radius: 25px;
+  border: 2px solid #fff;
+}
+          
+#donate_voluteer:hover{
+  color: rgba(126, 81, 202, 0.974);
+  background-color: #fff;
+}
+
+            /* OUR TEAM PART*/
+    
+.contents p{
+  color: #2980b9;
+  font-size: 30px;
+}
+.contents{
+ margin-top: -135px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+}
+    
+.team-member {
+  display: inline-block;
+  text-align: center;
+  margin: 20px;    
+}
+  
+.team-member img {
+  width: 400px;
+  height: 380px;
+  border-radius: 270px;
+}
+    
+.contents #book-us-btn{
+  width: 300px;
+}
+
+#myteam{
+  font-size: 23px;
+  color: #000;
+  font-weight: bold;
+}
+
+
+
+       /* FOOTER */
+    
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color:  #0c2b5b;
+  color: #fff;
+  padding: 20px;
+}
+      
+.footer-column {
+  flex: 1;
+  margin-right: 10px;
+}
+      
+.footer-column:last-child {
+  margin-right: 5px;
+}
+            
+.footer-column ul {
+  list-style-type: none;
+  padding: 0;
+}
+      
+.footer-column input[type="email"] {
+  width: 85%;
+  height: 40px;
+  padding: 5px;
+  margin-bottom: 60px;
+}
+      
+.footer-column button {
+  padding: 5px 10px;
+  background-color: rgb(217, 65, 19);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.footer-column button:hover{
+  background-color: #45a049;
+}
+      
+.social-links li {
+  display: inline;
+  margin-right: 10px;
+}
+      
+.social-links li:last-child {
+  margin-right: 0;
+}
+      
+a{
+  text-decoration: none;
+}
+a:hover{     
+  color: #45a049;
+}
+      
+.inside{
+  padding: 0px 400px;
+  display: flex;
+  justify-content: space-between;
+}
+    
+.inside .footer-column{
+  padding: 05px;
+}
+
+.footer h3{
+  color: #fff;
+}
+
+.icon .fa{
+  color: rgb(7, 151, 235);
+  padding-left: 1px;
+  text-align: center;
+}
+
+.icon .fa:hover{
+  color: #fff;
+}
+
+.down{
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}

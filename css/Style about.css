@@ -1,0 +1,103 @@
+    /* THE IMAGE / VIDEO*/
+.image-1 img{
+  height: 650px;
+  width: 1560px;
+}
+          /*Text on the landing image*/
+.content{
+  position: relative;
+  padding: center;   
+  text-align: center;   
+}
+      
+.text{
+  top: -500px;
+  position: absolute;
+  color: #fff;
+  background: transparent;
+  font-size: 50px;
+  padding: center;
+  bottom: 150px;
+  left: 620px;
+  margin: center;
+  text-align: center;
+}
+  
+        /*THE FIRST ROW OF THE SIDE IMAGE*/
+.two-column {
+  display: flex;
+  background-color: #f5f5f5;
+  padding: 30px;
+  text-align: left;
+  height: 600px;
+  margin-top: -10px;
+}
+                
+.column {
+  flex: 1;
+}
+                
+#par2{
+  color: #000; 
+  font-size: 24px;
+  text-align: center;
+}
+                
+#par102{
+  font-size: 45px;
+  font-weight: bolder;
+  color: #2980b9;;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;   
+}
+        
+.column.image {
+  text-align: center;
+}
+                
+.column.content {
+  padding-left: 50px;
+  font-size: 20px;   
+}
+                
+.column.content h2 {
+  margin-bottom: 15px;
+}
+                         
+.column img{
+  height: 600px;
+  width: 800px;       
+  border-radius: 5px;
+}
+                
+         /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.*/
+   
+.company-description, .team {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.company-description {
+  margin-top: 20px;
+  width: 1500px;
+}
+
+h2 {
+  text-align: center;
+  color: #2980b9;
+  font-size: 30px;
+}
+
+p{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  font-size: 23px;
+}
+
+html{
+  background: #abb0b0c9;
+}

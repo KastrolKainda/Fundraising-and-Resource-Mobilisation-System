@@ -1,0 +1,134 @@
+html{
+  background: #ccc;
+}
+     
+    
+    /* THE IMAGE / VIDEO*/
+.image-1 img{
+    height: 650px;
+    width: 1560px;
+}
+                /*Text on the landing image*/
+.content{
+    position: relative;
+    padding: center;   
+    text-align: center;   
+}
+            
+.text{
+    top: -500px;
+    position: absolute;
+    color: #fff;
+    background: transparent;
+    font-size: 50px;
+    padding: center;
+    bottom: 150px;
+    left: 620px;
+    margin: center;
+    text-align: center;
+}
+        
+              /*THE FIRST ROW OF THE SIDE IMAGE*/
+.company-description, .team {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 10px;
+}
+              
+.company-description {
+  margin-top: 20px;
+  width: 1500px;
+}
+              
+h2{
+  text-align: center;
+  color: #2980b9;
+  font-size: 40px;
+}
+              
+p{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  font-size: 23px;
+}
+
+       /* --- FORM ---*/
+
+.container {
+  font-size: 22px;
+  max-width: 890px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.container-1{
+  font-size: 22px;
+  max-width: 935px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+
+}
+h5 {
+  text-align: center;
+  color: #45a049;
+  font-size: 30px;
+}
+
+label {
+  font-weight: 20px;
+}
+
+input[type="text"],input[type="email"],textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.submit-btn {
+  background-color: rgb(217, 65, 19);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  width: 180px;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+}
+
+
+          /*PHYSICAL */
+.inside {
+  background-color: #0c2b5b;
+  color: #fff;
+  height: 200px;
+}
+    
+a{
+  color: #fff;
+}
+        

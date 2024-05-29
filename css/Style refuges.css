@@ -1,0 +1,134 @@
+         /* THE IMAGE / VIDEO*/
+         .image-1 img{
+            height: 650px;
+            width: 1560px;
+        }
+                    /*Text on the landing image*/
+        .content{
+            position: relative;
+            padding: center;   
+            text-align: center;   
+        }
+                        
+        .text{
+            top: -500px;
+            position: absolute;
+            color: #fff;
+            background: transparent;
+            font-size: 50px;
+            padding: center;
+            bottom: 150px;
+            left: 620px;
+            margin: center;
+            text-align: center;
+        }
+              
+        
+            /*THE FIRST ROW OF THE SIDE IMAGE*/
+        .two-column {
+            display: flex;
+            background-color: #ccc;
+            padding: 30px;
+            text-align: left;
+            height: 560px;
+            margin-top: -10px;
+        }
+                          
+        .column {
+        flex: 1;
+        text-align: center;
+        }
+        
+        h2{
+            color: #2980b9;
+            font-size: 35px;
+            margin-top: -25px;
+        }
+        
+        .column.content {
+            padding-left: 50px;
+            font-size: 20px;   
+        }
+                          
+        .column.content button {
+            background-color: rgb(217, 65, 19); /* Lighter blue for button */
+            color: #fff;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            border: none; 
+        }
+                          
+        .column.content button:hover {
+            background-color: #2980b9; /* Darker blue on hover */
+        }
+                          
+        .column img{
+            height: 600px;
+            width: 733px;   
+            margin-top: -35px;    
+        }
+        
+                
+                   /*THE SECOND ROW OF THE SIDE IMAGE*/
+        .container {
+            display: flex;
+            background-color: #fff; /* Lighter blue for button */
+            padding: 30px;
+            background-color: #e6e1e1a6;
+            height: 550px;
+            margin-top: -5px;
+        }
+                  
+        .column {
+            padding: 1rem; /* Add some padding to columns */
+            font-size: 20px;
+        }
+                  
+        .left-column {
+            flex: 1; /* Make the left column flexible (can grow/shrink) */
+        }
+                  
+        .right-column {
+            flex: 1; /* Make the right column flexible as well */
+            text-align: center; /* Center the image horizontally */
+        }
+                  
+        img {
+            height: 600px;
+            width: 733px;   
+        }
+              
+        button {            
+            background-color: rgb(217, 65, 19); 
+            text-decoration: none;
+            color: #fff;
+            height: 50px;
+            width: 150px;
+            text-align: center;
+            font-size: 17px;
+            border-radius: 25px;
+            border: 2px solid #fff;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+        }
+        
+        .column.left-column button{
+            background-color: rgb(217, 65, 19); /* Lighter blue for button */
+            color: #fff;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            border: none; 
+        }
+        
+        .column.left-column button:hover{
+            background-color: #2980b9; /* Darker blue on hover */
+        }
+        
+        .column p{
+            color: #000;
+            font-size: 22px;
+        }
+        
+        
